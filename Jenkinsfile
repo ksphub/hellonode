@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("ksphub/hellonode")
+        app = docker.build("kspdhub/hellonode")
     }
 
     stage('Test image') {
